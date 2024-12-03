@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\data\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\data\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\hubs\\hubuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\hubs\\hubuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\hubs\\hubmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\hubs\\hubmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\data\\searchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\data\\searchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\context\\messengerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\context\\messengerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|c:\\users\\user\\desktop\\togit\\paulsound_videocallmessenger\\paulsound_videocallmessenger\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4ED63E2E-254E-406C-BE84-3953BC1763F8}|PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger.csproj|solutionrelative:paulsound_videocallmessenger\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 176,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HubUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Hubs\\HubUser.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Hubs\\HubUser.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Hubs\\HubUser.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Hubs\\HubUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:45:19.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HubMessage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Hubs\\HubMessage.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Hubs\\HubMessage.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Hubs\\HubMessage.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Hubs\\HubMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:45:17.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Data\\SearchUser.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Data\\SearchUser.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Data\\SearchUser.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Data\\SearchUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:45:13.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactList.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Data\\ContactList.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Data\\ContactList.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Data\\ContactList.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Data\\ContactList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:45:12.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:44:58.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:44:57.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessengerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Context\\MessengerDbContext.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Context\\MessengerDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Context\\MessengerDbContext.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Context\\MessengerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:44:53.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAAAsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-19T14:25:16.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chat.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\wwwroot\\js\\chat.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\wwwroot\\js\\chat.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-18T13:09:56.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:45:40.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "PaulSound_VideoCallMessenger\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ToGit\\PaulSound_VideoCallMessenger\\PaulSound_VideoCallMessenger\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "PaulSound_VideoCallMessenger\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wC0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:11:48.094Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 161,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

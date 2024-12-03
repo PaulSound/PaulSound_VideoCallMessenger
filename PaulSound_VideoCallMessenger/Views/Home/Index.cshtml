@@ -1,0 +1,58 @@
+﻿@model UserModel;
+<partial name="_Notification" />
+
+@Html.AntiForgeryToken()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaulSound's Messenger</title>
+</head>
+<body>
+    <div class="text-center mb-5">
+        <h1 class="display-4">Welcome To PaulSound's Messenger!</h1>
+        <h2 class="display-4">Please Log in if you want to continue</h2>
+    </div>
+
+    <div class="container text-center my-5">
+        <div class="border p-4">
+            <div class="mb-4">
+                <h2 class="text-primary">Log In</h2>
+            </div>
+            <form method="post">
+    
+                <div class="mb-3 row p-1">
+                    <label class="p-0">Username</label>
+                    <input asp-for="UserName" placeholder="Username" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-warning"></span>
+                    <label class="p-0">Password</label>
+                    <input asp-for="Password" type="password" placeholder="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-warning"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <input type="submit" value="Login" class="btn btn-primary login_btn" />
+                </div>
+            </form>
+            <div asp-validation-summary="ModelOnly" class="mb-3"></div>
+            <div class="card-footer footer-links text-center mt-3">
+                <div class="d-flex justify-content-center mb-2">
+                    @Html.ActionLink("Впервые на сайте? Регестрируйся", "Register", new { @class = "text-info" })
+                </div>
+                <div class="d-flex justify-content-center">
+                    @Html.ActionLink("Забыли пароль?", "ForgetPassword", new { @class = "text-info" })
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+@section Scripts {    
+   <partial name="_ValidationScriptsPartial" />
+}
+
+

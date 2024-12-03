@@ -1,0 +1,326 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.chat-main {
+    width: 104%;
+    padding: 86px;
+    border: 5px solid gray;
+    margin-top: -11px;
+    margin-bottom: 100px;
+    margin-right: 160px;
+    margin-left: -17px;
+}
+
+.message-box {
+    border: 1px solid #dedede;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 57vh;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.chat-input {
+    border: 2px solid #dedede;
+    height: 52px;
+    border-radius: 5px;
+    min-height: 90px;
+    max-height: 90px;
+    z-index: 25;
+    box-shadow: 0 -1px 2px 0 #333;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.one-message {
+    display: flex;
+    background: #FFE4B5;
+    padding: 10px 10px 0 10px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 8px;
+    max-width: 80%;
+    width: auto;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    overflow-wrap: break-word;
+}
+
+.my-message {
+    background: #F4A460;
+}
+
+.text-content {
+    color: black;
+}
+
+.message {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: calc(65% - 50px);
+    font-size: 11pt;
+    color: rgba(255,255,255,.7);
+    margin: 0 0 4px 0;
+}
+
+    .message:first-of-type {
+        margin-top: 8px;
+    }
+
+
+ul {
+    list-style-type: none;
+}
+
+
+.modal-dialog {
+    width: 90%;/* Устанавливает ширину модального окна на 70% от ширины экрана */
+    max-width: 100%; /* Максимальная ширина также 70% */
+    height: 90%; /* Устанавливает высоту модального окна на 70% от высоты экрана */
+    margin: auto; /* Центрирует модальное окно на экране */
+}
+
+
+/* Стили для содержимого модального окна */
+.modal-content {
+    height: 100%; /* Задает высоту содержимого 100% от высоты диалога */
+}
+
+/* Стили для кнопок внизу модального окна */
+.modal-footer {
+    display: flex;
+    justify-content: space-between; /* Расположение кнопок по краям */
+}
+
+.username {
+    margin-right: 1rem;
+}
+
+.chat-input > textarea {
+    flex-grow: 4;
+    resize: none;
+}
+
+.chat-input > button {
+    flex-grow: 1;
+    height: 52px; 
+    width: 80px; 
+    background-color: darkcyan;
+    color: white; 
+    border: none; 
+    border-radius: 15px; 
+    transition: background-color 0.3s; 
+}
+    .chat-input > button:hover {
+        background-color: lightblue; 
+    }
+
+    .chat-input > button:disabled {
+        background-color: #ccc;
+        color: #666;
+        cursor: not-allowed;
+    }
+.message {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: calc(65% - 0px);
+    font-size: 11pt;
+    color: rgba(255,255,255,.7);
+    margin: 0 0 4px 0;
+}
+
+    .message:first-of-type {
+        margin-top: 8px;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+.username {
+    margin-right: 1rem;
+}
+
+.chat-input > textarea {
+    flex-grow: 4;
+    resize: none;
+}
+
+.chat-input > button {
+    flex-grow: 1;
+}
+    .chat-input > button:disabled {
+        background-color: #ccc;
+        color: #666;
+        cursor: not-allowed;
+    }
+.userSearch {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+/*End*/
+
+/*Онлайн пользователи*/
+.sidenavRight {
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    height: 81%;
+    overflow-x: scroll;
+    width: 12%;
+    min-width: 20px;
+    right: 0;
+    position: absolute;
+    top: 58px;
+    padding-top: 40px;
+    background-color: rgba(0,0,0,0.5) !important;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 80px;
+}
+
+.user-connected { /* Возможно стоит удалить */
+    width: 97%;
+    padding-inline-start: 0;
+    margin-bottom: 0.5em;
+    position: center;
+    background-color: #03fc49;
+    border: 2px solid #007bff; /* Цвет бордюра */
+    border-radius: 5px; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    color: #007bff; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор в виде указателя */
+    transition: background-color 0.3s, transform 0.3s; /* Плавный переход */
+}
+
+    .user-connected:hover { /* Возможно стоит удалить */
+        background-color: #007bff; /* Цвет фона при наведении */
+        color: #ffffff; /* Цвет текста при наведении */
+        transform: translateY(-2px); /* Эффект поднятия */
+    }
+
+    .user-connected:active {
+        transform: translateY(0); /* Эффект нажатия */
+    }
+.user-disconnected { /* Список контактов пользователя */
+    width: 97%;
+    padding-inline-start: 0;
+    margin-bottom: 0.5em;
+    position: center;
+    background-color: #fc0335;
+    border: 2px solid #007bff; /* Цвет бордюра */
+    border-radius: 5px; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    color: #007bff; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор в виде указателя */
+    transition: background-color 0.3s, transform 0.3s; /* Плавный переход */
+}
+    .user-disconnected:hover {
+        background-color: #fcf803; /* Цвет фона при наведении */
+        color: #fc0335; /* Цвет текста при наведении */
+        transform: translateY(-2px); /* Эффект поднятия */
+    }
+.user-disconnected:active {
+    transform: translateY(0); /* Эффект нажатия */
+}
+.ul#userOnlineList {
+    list-style-type: none;
+    padding-left: 0;
+    position: center;
+}
+/*End*/
+/*Шруппы*/
+.sidenavLeft {
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    height: 81%;
+    overflow-x: scroll;
+    width: 13%;
+    min-width: 10px;
+    left: 0;
+    position: absolute;
+    top: 58px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5) !important;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+
+.group-connected {
+    font-family: Arial, sans-serif; /* Шрифт для основного текста */
+    font-size: 17px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #007bff; /* Цвет бордюра */
+    border-radius: 5px; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    background-color: #9803fc;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 4px 0;
+    margin-left: 4px;
+    margin-right: 4px;
+    box-sizing: border-box;
+    width: 96%;
+}
+
+    .group-connected:hover {
+        background-color: #fcf803; /* Цвет фона при наведении */
+        color: #fc0335; /* Цвет текста при наведении */
+        transform: translateY(-2px); /* Эффект поднятия */
+    }
+
+    .group-connected:active {
+        transform: translateY(0); /* Эффект нажатия */
+    }
+/**/
+.connection {
+    text-align: center;
+    color: #5b5e6c
+}
+/*End*/
+
+
+.footer-links a, .footer-links a:hover {
+    color: white;
+}

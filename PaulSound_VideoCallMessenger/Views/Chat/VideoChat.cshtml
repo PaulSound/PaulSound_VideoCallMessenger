@@ -1,0 +1,35 @@
+﻿@using PaulSound_VideoCallMessenger.Models
+
+@section Scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+}
+@Html.AntiForgeryToken() @* проверка на то не подделан ли ключ аутификации  *@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео конференция</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     @if(User.Identity.IsAuthenticated){
+        <div id="container">
+            <h1>
+                <a href="//webrtc.github.io/samples/" title="WebRTC samples homepage">WebRTC samples</a>
+                <span>getUserMedia</span>
+            </h1>
+
+            <video id="gum-local" autoplay playsinline></video>
+            <button id="showVideo">Connect user</button>
+            <button id="endVideo" asp-controller="Chat" asp-action="Index">End videocall</button>
+
+            <div id="errorMsg"></div>
+        </div>
+     }
+</body>
+</html>

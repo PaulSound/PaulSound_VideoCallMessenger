@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PaulSound_VideoCallMessenger.props" />
+</Project>

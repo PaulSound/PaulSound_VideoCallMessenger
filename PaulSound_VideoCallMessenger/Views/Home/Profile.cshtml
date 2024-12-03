@@ -1,0 +1,29 @@
+﻿@model UserModel
+<partial name="_Notification" />
+
+<div class="text-center">
+    <h1 class="display-4">User Profile</h1>
+</div>
+<div class="row">
+    <h4>User </h4>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+    <div class="footer-links">
+        @Html.ActionLink("Change Password", "ResetPassword")
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

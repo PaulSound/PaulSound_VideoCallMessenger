@@ -1,0 +1,89 @@
+﻿@using PaulSound_VideoCallMessenger.Models
+
+@section Scripts 
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+}
+@Html.AntiForgeryToken() @* проверка на то не подделан ли ключ аутификации  *@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница Чата</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+            <div class="chat-main">
+               <h4 class="chat-header" id="chat-intro"></h4> 
+                <div class="message-box">
+                    <ul id="messagesList"></ul>
+                </div>
+
+                <div class="chat-input">
+                    <textarea id="messageInput" placeholder="Your text here..."></textarea>
+                    <button id="sendButton">Send <i class="bi bi-send"></i></button>
+                    <button id="callButton" type="button" data-toggle="modal" data-target="#windowModal">
+                        Call<i class="bi bi-camera-video-fill">
+                    </i></button>
+                </div>
+            </div>
+
+            <div id="mySidenavUsers" class="sidenavRight">
+                <p style="text-align:center;font-weight: bold;">Contacts</p>
+                <div class="row text-center">
+                    <ul id="userOnlineList"></ul>
+                </div>
+            </div>
+
+            <div class="groups-main">
+                <div id="mySidenavGroups" class="sidenavLeft">
+                    <p style="text-align:center;font-weight: bold;">User Search</p>
+      
+                    <div>
+                        <div class="form-group">
+                            <label>Enter username or unique identifire</label>
+                            <input id="GroupChatName" name="groupName" class="form-control" />
+                            <input id="UniqueIdentifier" name="groupName" class="form-control" type="hidden" />
+                        </div>
+                        <div class="form-group">
+                            <input type="button" id="addUserButton" value="Add" />
+                        </div>
+                    </div>
+                    <p style="text-align:center;font-weight: bold;">Available users</p>
+                    <div id="groupOnlineList" class="row text-center">
+                        <ul id="userList"></ul>
+                    </div>
+                </div>    
+            </div>
+
+
+            <div class="modal fade" id="windowModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video id="localVideo" playsinline autoplay controls="false"></video>
+                                <video id="remoteVideo" playsinline autoplay controls="false"></video>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="btnDisconnect" type="button" class="btn btn-secondary" data-dismiss="modal">Disconnect</button>
+                                <button id="btnConnect" type="button" class="btn btn-primary">Connect</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+</body>
+</html>
