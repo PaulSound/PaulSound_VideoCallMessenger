@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaulSound_VideoCallMessenger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+898429d52a38876933b4fba4f8a79e99771bf811")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8cedfeaba70788544b865901a4f0616fccf367d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaulSound_VideoCallMessenger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaulSound_VideoCallMessenger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
